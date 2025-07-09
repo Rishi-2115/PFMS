@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPANY NAME                      :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/COMPANYNAMETV"
+            android:layout_marginLeft="12dp"
+            android:text="ifsc here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FOLIO NUMBER              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/FOLIONOTV"
+            android:text="micr here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMOUNT         :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/AMOUNTTV"
+            android:text="acc_no here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+</LinearLayout>

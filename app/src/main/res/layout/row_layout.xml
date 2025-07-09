@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANK ID                      :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv1"
+       android:layout_marginLeft="12dp"
+        android:text="bid here"
+        android:gravity="center"
+        android:textColor="#121010"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANK NAME              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+
+        android:layout_width="100dp"
+        android:layout_marginLeft="13dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv2"
+        android:text="bank here"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOLDER NAME         :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:id="@+id/tv3"
+        android:text="name here"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SCHEME                     :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:id="@+id/tv4"
+        android:text="scheme here"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMOUNT                    :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:id="@+id/amount"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:gravity="center"
+            android:text="amount here"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START DATE              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="33dp"
+        android:id="@+id/tv5"
+        android:text="start date here"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="INTEREST TYPE       :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv6"
+        android:layout_marginLeft="27dp"
+        android:text="interest type"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RATE OF INTEREST :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv7"
+        android:layout_marginLeft="13dp"
+        android:text="rate of interest"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MATURITY TIME      :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv8"
+        android:layout_marginLeft="33dp"
+        android:text="maturity time"
+        android:gravity="center"
+        android:textColor="#121010"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

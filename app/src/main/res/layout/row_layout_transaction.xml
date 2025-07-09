@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSACTION ID                      :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/tid_tv"
+            android:layout_marginLeft="12dp"
+            android:text="tid here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANK NAME              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bankname_tv"
+            android:text="bank here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BRANCH         :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/branch_tv"
+            android:text="branch here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ACCOUNT NO                     :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/Accno_tv"
+            android:text="no here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TRANSACTION TYPE                    :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:id="@+id/tratype_tv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:gravity="center"
+            android:text="tratype here"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RECEIVER NAME              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/recname_tv"
+            android:text="recname here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AMOUNT       :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/AMT_tv"
+            android:layout_marginLeft="27dp"
+            android:text="amount here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CHEQUE NO :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/chqnotv"
+            android:layout_marginLeft="13dp"
+            android:text="chqno here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="REMARK      :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/remarktv"
+            android:layout_marginLeft="33dp"
+            android:text="remark here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

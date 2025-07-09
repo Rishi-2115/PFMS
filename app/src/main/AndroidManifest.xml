@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.keshri_rakesh.pfms">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo2"
+        android:label="PFMS"
+        android:roundIcon="@mipmap/logo2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity
+            android:name=".Registration"
+            android:label="Sign Up" />
+        <activity android:name=".Dashboard" />
+        <activity
+            android:name=".Bank"
+            android:label="Bank" />
+        <activity
+            android:name=".Post"
+            android:label="Post" />
+        <activity
+            android:name=".Insaurance"
+            android:label="Insurance" />
+        <activity android:name=".fd">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Insertion" />
+        <activity android:name=".Modify" />
+        <activity android:name=".Vehicle" />
+        <activity android:name=".OfficeInsurance" />
+        <activity android:name=".electronicinsurance" />
+        <activity android:name=".nsc" />
+        <activity android:name=".td" />
+        <activity
+            android:name=".shares"
+            android:label="Shares" />
+        <activity android:name=".rd" />
+        <activity android:name=".share_list" />
+        <activity android:name=".shares_modify" />
+        <activity android:name=".mutual_funds_select" />
+        <activity android:name=".mutual_funds_lumsum_list" />
+        <activity android:name=".mutual_funds_sip_list" />
+        <activity android:name=".mutual_funds_lumsum_add" />
+        <activity android:name=".mutual_funds_lumsum_modify" />
+        <activity android:name=".mutual_funds_sip_add" />
+        <activity
+            android:name=".mutual_funds_sip_modify"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        />
+        <activity android:name=".Vehicleinsurance_list" />
+        <activity android:name=".vehicleinsurance_modify" />
+        <activity android:name=".officeinsurance_modify" />
+        <activity android:name=".officeinsurance_list" />
+        <activity android:name=".electronicinsurance_list" />
+        <activity android:name=".AddAccount" />
+        <activity android:name=".AddTransaction" />
+        <activity android:name=".ListAccounts" />
+        <activity android:name=".ListAccountTransactions" />
+        <activity android:name=".ListRecentTransactions" />
+        <activity android:name=".ListTransactions" />
+        <activity android:name=".SearchTransactions" />
+        <activity android:name=".TransactionDetails" />
+        <activity android:name=".UpdateAccount" />
+        <activity android:name=".nsc_list" />
+        <activity android:name=".nsc_modify" />
+        <activity android:name=".navdraw" />
+        <activity android:name=".Expensemanager" />
+        <activity android:name=".Edit_expense" />
+        <activity
+            android:name=".Tab1"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tab2"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TabHistory_week"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Update_AddExpense"
+            android:label="ManageExpense"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Setting"
+            android:label="ManageExpense"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".td_list" />
+        <activity android:name=".modify_td" />
+        <activity android:name=".rd_list" />
+        <activity android:name=".rd_modify" />
+        <activity android:name=".FAQ" />
+        <activity android:name=".help" />
+        <activity android:name=".KVP" />
+        <activity android:name=".kvp_list" />
+        <activity android:name=".Lifeinsurance" />
+        <activity android:name=".life_insurance_list" />
+        <activity android:name=".electronic_modify"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SHARES ID                     :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/shareid_tv"
+            android:layout_marginLeft="12dp"
+            android:text="share id here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COMPANY NAME              :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+
+            android:layout_width="100dp"
+            android:layout_marginLeft="13dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/com_tv"
+            android:text="micr here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="HOLDER NAME         :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:id="@+id/holdernamee_tv"
+            android:text="acc_no here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PURCHASE DATE                     :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:id="@+id/purchase_tv"
+            android:text="hname here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NO. OF SHARES                    :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+
+        <TextView
+            android:id="@+id/noofshares_tv"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:gravity="center"
+            android:text="bank_id here"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" TOTAL AMOUNT             :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="33dp"
+            android:id="@+id/totalamt_tv"
+            android:text="bname here"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BANK NAME       :"
+            android:textStyle="bold"
+            android:textColor="#121010"/>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/BANKNAME_tv"
+            android:layout_marginLeft="27dp"
+            android:text="bal type"
+            android:gravity="center"
+            android:textColor="#121010"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">PFMS_test</string>
+    <string name="title_activity_navigationdash">navigationdash</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+
+    <string name="accountsprompt">Select Account</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_example">Example action</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_navigation_dashboard">navigation_dashboard</string>
+    <string name="title_activity_nav_dash">nav_dash</string>
+    <string name="title_activity_dash__nav">Dash_Nav</string>
+
+    <string-array name="items">
+        <item>-SELECT-</item>
+        <item>Heavy Motor Vehicle</item>
+        <item>Light Motor Vehicle</item>
+        <item>Gearless Vehicle</item>
+    </string-array>
+    <string-array name="electronic">
+        <item>Television</item>
+        <item>Laptop</item>
+        <item>Desktop</item>
+        <item>Mobile Phone</item>
+    </string-array>
+    <string-array name="data2">
+        <item>-Select-</item>
+        <item>Monthly</item>
+        <item>Quaterly</item>
+        <item>Half Yearly</item>
+        <item>Yearly</item>
+    </string-array>
+    <string name="title_activity_nav">nav</string>
+    <string name="title_activity_nav_draw">NavDraw</string>
+
+
+    <string-array name="lists">
+        <item>Item One</item>
+        <item>Item Two</item>
+        <item>Item Three</item>
+        <item>Item Four</item>
+        <item>Item Five</item>
+
+    </string-array>
+    <string-array name="Member_names">
+        <item>Robert</item>
+        <item>Shani</item>
+        <item>Maddi</item>
+        <item>Kate</item>
+    </string-array>
+
+    <string-array name="profile_pics">
+        <item>drawable/robert</item>
+        <item>drawable/shadi</item>
+        <item>drawable/ambot</item>
+        <item>drawable/lipatko</item>
+    </string-array>
+
+    <string-array name="status">
+        <item>Work</item>
+        <item>Gym</item>
+        <item>Busy</item>
+        <item>Mus.on</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>red</item>
+        <item>yellow</item>
+        <item>orange</item>
+        <item>blue</item>
+        <item>green</item>
+        <item>white</item>
+        <item>pink</item>
+    </string-array>
+
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+
+    <string name="tql">
+        You can add bank details in bank  module
+        to open bank account.You can deposit and
+        withdrawal the amount through these acc.
+    </string>
+    <string name="tq2">
+        There are different types of insurance for
+        which you can apply:
+        LIFE :The insurer pay sum of money in exchange
+              for a premium upon the death of an
+              insured person.
+
+        OFFICE :The office insurance provides protection
+                against damage to insured property.
+
+        VEHICLE :It is for cars,trucks,motorcycles and
+                 other road vehicles.It provides financial
+                 protection against physical damage  or
+                 bodily injury to vehicle.
+
+        ELECTRONIC :It offers extensive electronic devices
+                    protection.Protection in case of droppage,
+                    accidents,theft,burglary,robbery,etc.
+    </string>
+    <string name="tq3">
+         There are different schemes in post for which you
+         can apply:
+        NSC : National Saving Certificate
+              It is an Indian government savings Bond.
+              There are two maturity period one for 5
+              years and other for 10 years.
+
+        KVP : Kisan Vikas Patra
+              It is a certificate scheme.It doubles the
+              a one time investment in a period of approx
+              9 years 10 months(118 months).
+
+        TD  : Time Deposit
+              It is a type of fixed deposit account that
+              can be opened with minimum investment amt
+              of RS 200.It can be held for a tenure ranging
+              anywhere between 1 to 5 years.
+    </string>
+    <string name="tq4">
+        SIP : Systematic Investment Plan
+              In SIP investors are allow to invest small amt
+              perodically.Investor are allocated number of units
+              according to current Net Asset Value(NAV).
+
+        LumpSum : In Lumpsum large amt is paid in one single
+              payment instead of installments.
+        </string>
+
+
+    <string name="app_namee">
+        Personal Finance Management is an application designed to manage  your income and expenses and  investments of your  money . you can show all your  money investment using this app.  First of all you have to register your self with your Email-Id then log in your self and then you can use application .
+ We have some different section of this application  Bank,Share,Mutual funds,Post,Insurance and Daily Expense.
+    </string>
+    <string name="app_name2">
+
+    •	In bank section there are two sub section Bank and Fixed Deposit ,In Bank section you can add your accounts,transactions from your account and you also view,edit and delete your transaction .
+     </string>
+    <string name="app_name3">
+    •	In Fixed Deposit section you can add your different fd details and you can also edit and delete your fixed deposite Details.
+    </string>
+    <string name="app_name4">
+    •	In shares you can add your shares details and you  can also edit and delete your details .
+    </string>
+    <string name="app_name5">
+    •	In mutual funds there are  two sub sections sip and lumsum,you  can add details according your mutual funds and you can also modify your details and delete your details.
+    </string>
+    <string name="app_name6">
+    •	In Insurance there are  four sub section life,office,electronic and vehical insurance  you can add you insurance details and also you can modify and delete your insurance details.
+    </string>
+    <string name="app_name7">
+    •	In daily expense you can add your regular expenses and you can manage your income and expenses ,And you can also show your expenses in chart form.
+    </string>
+    <string name="app_name8">
+For more info contact on following numbers
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="category_a"><b><u>Category</u></b></string>
+</resources>

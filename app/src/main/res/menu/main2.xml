@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/add_record"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@mipmap/ic_add"
+        android:orderInCategory="100"
+        android:title="Add Record"
+        app:showAsAction="always"
+        />
+
+
+
+    <item
+        android:id="@+id/action_1"
+        android:orderInCategory="100"
+        android:title="Settings"
+        app:showAsAction="never" />
+    <!-- <menu>-->
+
+
+    <!--<item
+        android:id="@+id/archive"
+        android:title="Go to Settings"
+        app:showAsAction="withText" />
+
+        <item
+            android:id="@+id/exit"
+            android:title="Exit"
+            app:showAsAction="withText" />
+
+
+
+
+        </menu>
+   </item>-->
+    <item
+        android:id="@+id/Overview"
+        android:icon="@mipmap/pentagon"
+        app:showAsAction="never"
+        android:title="Overview" />
+    <item
+        android:id="@+id/History"
+        app:showAsAction="never"
+        android:icon="@mipmap/reorder"
+        android:title="History" />
+    <item
+        android:id="@+id/Graph_all"
+        android:icon="@mipmap/pie"
+        app:showAsAction="never"
+        android:title="Budget" />
+    <item
+        android:id="@+id/Distribution"
+        android:icon="@mipmap/dis"
+        app:showAsAction="never"
+        android:title="Distribution" />
+
+
+</menu>

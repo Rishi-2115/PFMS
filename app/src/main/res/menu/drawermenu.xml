@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/backup" android:title="Backup and Restore"/>
+<item android:id="@+id/faqs" android:title="FAQs"/>
+<item android:id="@+id/help" android:title="Help"/>
+
+    <item
+        android:id="@+id/Overview"
+        android:icon="@mipmap/pentagon"
+        android:title="Overview" />
+    <item
+        android:id="@+id/History"
+        android:icon="@mipmap/reorder"
+        android:title="History" />
+    <item
+        android:id="@+id/Graph_all"
+        android:icon="@mipmap/pie"
+        android:title="Budget" />
+    <item
+        android:id="@+id/Distribution"
+        android:icon="@mipmap/dis"
+        android:title="Distribution" />
+</menu>
